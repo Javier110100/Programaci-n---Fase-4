@@ -7,11 +7,11 @@ from typing import Optional, List  # Anotaciones de tipo
 
 # Configuración de logs
 logging.basicConfig(
-    filename='software_fj.log',          # Nombre del archivo
-    level=logging.DEBUG,                 # Nivel mínimo de log
-    format='%(asctime)s | %(levelname)s | %(message)s',  # Formato de cada línea
-    datefmt='%Y-%m-%d %H:%M:%S',         # Formato de la fecha
-    encoding='utf-8'                     # Codificación para soportar caracteres especiales
+    filename="software_fj.log",
+    level=logging.DEBUG,
+    format='%(asctime)s | %(levelname)s | %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+    encoding='utf-8'
 )
 logger = logging.getLogger(__name__)     # Obtiene el objeto logger con el nombre del módulo actual
 
