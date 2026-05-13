@@ -25,7 +25,7 @@ El proyecto implementa:
 Ejecutar el archivo principal en Python:
 
 ```bash
-python main.py
+Fase4.py
 ```
 
 ## Archivo de logs
